@@ -15,6 +15,12 @@ importers:
         specifier: 19.0.0
         version: 19.0.0(react@19.0.0)
     devDependencies:
+      '@babel/core':
+        specifier: ^7.14.5
+        version: 7.26.10
+      '@babel/preset-react':
+        specifier: ^7.14.5
+        version: 7.26.3(@babel/core@7.26.10)
       '@eslint/js':
         specifier: ^9.8.0
         version: 9.23.0
@@ -75,6 +81,9 @@ importers:
       '@vitest/ui':
         specifier: ^3.0.0
         version: 3.1.1(vitest@3.1.1)
+      '@web-game-dev/game-of-life':
+        specifier: workspace:*
+        version: link:packages/game-of-life
       autoprefixer:
         specifier: 10.4.13
         version: 10.4.13(postcss@8.4.38)
@@ -131,6 +140,8 @@ importers:
         version: 3.1.1(@types/node@20.17.29)(@vitest/ui@3.1.1)(jiti@2.4.2)(jsdom@22.1.0)(terser@5.39.0)(yaml@2.7.1)
 
   apps/playground: {}
+
+  packages/game-of-life: {}
 
 packages:
 

@@ -1,4 +1,4 @@
-import { GameOfLife } from './game-of-life';
+import { GameOfLife } from '@web-game-dev/game-of-life';
 
 export function App() {
   return (
